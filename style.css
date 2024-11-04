@@ -1,0 +1,27 @@
+body{
+  background: rgb(10, 140, 255);
+  font-family: "Ubuntu";
+  color: white;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+body > p{
+  display: flex;
+  justify-content: center;
+}
+
+#respostas{
+  display: flex;
+  justify-content: center;
+  background: blueviolet;
+  border: solid white .1em;
+}
+#respostas > p{
+  border: black .5em solid;
+  padding: 2em;
+  margin-right: 1em;
+}
